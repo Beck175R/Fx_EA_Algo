@@ -1,4 +1,25 @@
     <style>
+:root {
+  /* ダーク系グラデーションのベースカラー */
+  --primary-dark:  #0f1e3e;  /* 深いネイビーブルー */
+  --primary-light: #2a3f75;  /* 明るめのネイビーブルー */
+  --accent:        #00bcd4;  /* アクセントに使うシアン */
+  
+  /* グラデーション定義 */
+  --bg-gradient: linear-gradient(
+    135deg,
+    var(--primary-dark) 0%,
+    var(--primary-light) 100%
+  );
+  
+  /* テキストカラー */
+  --text-main:     #f1f1f1;  /* 明るいテキスト */
+  --text-muted:    #cfcfcf;  /* 補助的なテキスト */
+  
+  /* カード背景 */
+  --card-bg:       rgba(255,255,255,0.1);
+}
+
         * {
             margin: 0;
             padding: 0;
