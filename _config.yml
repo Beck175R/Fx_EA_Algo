@@ -1,7 +1,7 @@
 title: FX Trading Hub
 description: 初心者から上級者までのFX情報サイト
-baseurl: ""           # もしサブディレクトリで公開しているなら書き換え
-url: "https://your-username.github.io"
+baseurl: "/Fx_EA_Algo"
+url: "https://beck175r.github.io"
 markdown: kramdown
 theme: minima         # デフォルトテーマ。後で自作に置き換え可
 plugins:
