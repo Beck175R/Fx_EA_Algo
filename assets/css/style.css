@@ -26,12 +26,15 @@
         }
 
         body {
-            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif, 'Roboto Condensed', sans-serif;
             line-height: 1.6;
             color: var(--text-main);
             background: var(--bg-gradient);
             min-height: 100vh;
         }
+        h1, h2, h3 {
+                  font-weight: 700;
+                   }
 
         .container {
             max-width: 1200px;
