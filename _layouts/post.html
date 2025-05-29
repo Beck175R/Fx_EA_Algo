@@ -2,17 +2,19 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  {% comment %}Chart.jsライブラリ{% endcomment %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-  {% comment %}もし記事専用CSSがあるならここで読み込み{% endcomment %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   {% include header.html %}
-  
-  {{ content }}
+
+  <!-- ここから記事本文のラッパー -->
+  <main class="container">
+    {{ content }}
+  </main>
+  <!-- ここまで -->
 
   {% include footer.html %}
 </body>
